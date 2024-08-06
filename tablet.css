@@ -1,0 +1,159 @@
+@media screen and (max-width:800px) {
+  nav{
+    padding: 20px 8%;
+    transition: .8s;
+  }
+
+  .menu{
+    gap: 1.5rem;
+    transition: .8s;
+  }
+
+  .menu a{
+    font-size: 1rem;
+    transition: .8s;
+  }
+
+  .logo {
+    width: 80px;
+    height: 40px;
+    transition: .8s;
+  }
+
+  .logo h3{
+    font-size: 2rem;
+    transition: .8s;
+  }
+
+  .hero{
+    padding: 50px 8% 0;
+    transition: .8s;
+  }
+
+  .hero img{
+    max-width: 330px;
+    transition: .8s;
+  }
+
+  .hero_content h3{
+    font-size: 2.4rem;
+    transition: .8s;
+  }
+
+  .hero_content h2{
+    font-size: 3rem;
+    transition: .8s;
+  }
+
+  .hero_content p{
+    font-size: 1rem;
+    transition: .8s;
+  }
+
+  .primary_btn, .hero_content .contact_btn{
+    font-size: .8rem;
+    padding: 10px 14px;
+    transition: .8s;
+  }
+
+  .hero_content .contact_btn{
+    margin-left: 10px;
+  }
+
+  header{
+    background: url(images/header_bg.png), url(images/developer.png);
+    background-size:480px, 65px;
+    background-position: bottom right, left;
+    background-repeat: no-repeat;
+    background-color: #FFF8F3;
+    transition: .8s;
+  }
+
+  .about{
+    width: 84%;
+    padding: 40px 50px;
+    margin: 40px auto;
+  }
+
+  .info_container{
+    gap: 2rem;
+    flex-wrap: nowrap;
+  }
+
+  .info_item h5{
+    font-size: 14px;
+  }
+
+  .info_item p{
+    font-size: 12px;
+  }
+
+  .about > p{
+    font-size: 15px;
+  }
+
+  /* -------------what i do------------- */
+
+  .skill_container{
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 10px 8% 40px;
+    gap: 3rem;
+  }
+
+  .skill_info{
+    width: 45%;
+  }
+
+  /* .skill_info img{
+
+  } */
+
+  .what_i_do > p{
+    font-size: 15px;
+  }
+
+  /* ---------resume section------- */
+
+  .resume_container{
+    padding: 30px 8% 40px;
+    gap: 3rem;
+  }
+
+  .resume_info h4{
+    font-size: 1.2rem;
+  }
+
+  .resume_info h5{
+    font-size: 1.1rem;
+  }
+
+  /* ---footer---- */
+
+  .footer_container{
+    padding: 50px 8% 35px;
+    gap: 2rem;
+  }
+
+  .footer_items{
+    width: 50%;
+  }
+
+  .footer_items h3{
+    font-size: 1.8rem;
+  }
+
+  .footer_items p{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  }
+
+  .footer_items #f_btn{
+    font-size: 1rem;
+  }
+
+  .copy{
+    padding: 0 0 35px;
+  }
+}
